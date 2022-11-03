@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+<div class="container-fluid">
+    <div class="row">
+        <div class="video col-md-6">
+            <video controls #videoPlayer>
+                Browser not supported
+            </video>
+        </div>
+        <div class="video col-md-6">
+            <canvas class="output_canvas" width="320px" height="180px" #outputCanvas></canvas>
+        </div>
+    </div>
+</div>
+ 
+</ion-content>
